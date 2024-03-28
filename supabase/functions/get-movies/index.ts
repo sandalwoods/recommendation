@@ -89,7 +89,6 @@ Deno.serve(async (req) => {
       headers: { 'Content-Type': 'application/json' },
     }
   )
-
 })
 
 interface Movie {
