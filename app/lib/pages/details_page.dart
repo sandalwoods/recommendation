@@ -92,3 +92,12 @@ class _DetailsPageState extends State<DetailsPage> {
     );
   }
 }
+
+
+// embeddings comparing
+// with emb1 as
+// (select embedding as embedding1 from movies where id=1011985),
+
+// emb2 as (select embedding as embedding2 from movies where id=866398)
+
+// select emb1.embedding1, emb2.embedding2, emb1.embedding1<=>emb2.embedding2 as similarity from emb1, emb2; 
